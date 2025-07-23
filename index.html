@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atrangi Rang</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="animated-background"></div>
+
+  <div class="container">
+    <h1 class="glow-text animate-title">Atrangi Rang</h1>
+
+    <p class="tagline">Color Theme Generator for Modern Websites</p>
+
+    <textarea
+      id="siteDescription"
+      placeholder="Describe your website (e.g., modern tech startup, kids toy store, luxury fashion brand...)"
+    ></textarea>
+
+    <button id="generateBtn" class="glow-button">Generate Theme</button>
+
+    <div id="result"></div>
+
+    <div id="preview">
+      <div id="previewBox" class="preview-box">
+        <h3>Live Preview Area</h3>
+        <div class="preview-theme-sample">
+          <div class="preview-header">Header with Primary Color</div>
+          <p class="preview-subtext">Subtext using secondary color.</p>
+          <button class="preview-button">Call to Action</button>
+          <div class="preview-background">Background Area with 5th Color</div>
+          <div class="preview-card">Card with border using Color 1, background using Color 2, text using Color 4</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
